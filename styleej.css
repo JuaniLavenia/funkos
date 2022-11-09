@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Goldman&family=Space+Mono:wght@700&display=swap");
+:root {
+  --fondo-principal: linear-gradient(
+    to right,
+    #ce5937 0%,
+    #a115a4 50%,
+    #9c17c5 100%
+  );
+}
+* {
+  /* margin: 0;
+  padding: 0; */
+  /* box-sizing: border-box; */
+
+  /* 1 REM = 10px */
+  /* font-size: 62.5%; */
+  font-family: "Goldman", cursive;
+}
+.navbar {
+  /* position: sticky;
+  top: 0; */
+  background: var(--fondo-principal);
+  /* z-index: 1; */
+  /* justify-content: end; */
+}
+.nav-img {
+  height: 4rem;
+}
+.footer {
+  height: 12vh;
+  background: var(--fondo-principal);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  /* font-size: 1.5rem; */
+  margin-top: 8rem;
+}
+.main-body {
+  margin-top: 3rem;
+  justify-content: center;
+  align-items: center;
+}
+.img-car {
+  margin-left: 35rem;
+  height: 50vh;
+}
+/* .card-body {
+  background: var(--fondo-principal);
+} */
+.img-cart {
+  width: 2vw;
+}
